@@ -1,0 +1,245 @@
+html {
+    height: 100%;
+}
+body {
+    background: url(../images/black-Linen.png) repeat fixed;
+    height: 100%;
+}
+.logo {
+    height: 60px;
+    padding: 10px 20px;
+    border-bottom: 2px solid #0D0D0D;
+    margin-bottom: 10px;
+}
+.logo a {
+    color: #DDDDDD;
+    font: 30px Arial;
+    text-decoration: none;
+}
+.sidebar-wrap {
+    padding: 0;
+}
+.sidebar-l {
+    height: 100%;
+    background: #353535;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 275px;
+    z-index: 99;
+}
+.height {
+    height: 100%!important;
+}
+.sidebar-r {
+    height: 100%;
+    background: #353535;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 82px;
+    z-index: 102;
+}
+.fixed-top {
+  /*  padding: 0;*/
+}
+.topfix {
+    position: fixed;
+    height: 60px;
+    background: #353535;
+    width: 733px;
+    z-index: 103;
+    border-bottom: 2px solid #0D0D0D;
+}
+.main {
+    background: #fff;
+    margin-top: 60px;
+    padding: 20px 40px 0 40px;
+    z-index: 1;
+    min-height: 100%;
+}
+.conteiner {
+    background: #fff;
+    min-height: 100%;
+}
+.sidebar-r-w {
+    padding-left: 0;
+    height: 100%;
+    min-height: 100%!important;;
+}
+.padding-fix {
+    padding: 0;
+    height: 100%;
+}
+.sidebar-l ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 0 10px;
+}
+.sidebar-l ul li {
+    display: block;
+}
+.sidebar-l ul li a {
+    padding: 10px 10px;
+    display: block;
+    background: #333333;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333), color-stop(1, #454545));
+    background: -ms-linear-gradient(bottom, #333333, #454545);
+    background: -moz-linear-gradient(center bottom, #333333 0%, #454545 100%);
+    background: -o-linear-gradient(bottom, #333333, #454545);
+    filter: progid:dximagetransform.microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#ffffff');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#454545',EndColorStr='#333333')";
+    border-bottom: 1px solid #0D0D0D;
+    border-left: medium none currentColor;
+    border-top: 1px solid #4D4D4D;
+    color: #DDDDDD;
+}
+.settings {
+    width: 100%;
+    height: 52px;
+    background: url(../images/settings.png) 50% 50% no-repeat;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.panel-sidebar {
+    width: 0px;
+    height: 100%!important;
+    position: fixed;
+    margin-left: 0px;
+    top: 0;
+    bottom: 0;
+    background: #4D4D4D;
+    z-index: 101;
+    overflow: hidden;
+    padding: 100px 10px 0 10px;
+    border-right: 2px solid #0D0D0D;
+}
+
+.container {
+    overflow: hidden!important;
+}
+.overlay {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    background: rgba(37,37,37, 0.5);
+    display: none;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease;
+}
+
+ /* prognoz */
+ .prognosis {
+    margin-bottom: 10px;
+ }
+ .head-pr {
+    background: #333333;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333), color-stop(1, #454545));
+    background: -ms-linear-gradient(bottom, #333333, #454545);
+    background: -moz-linear-gradient(center bottom, #333333 0%, #454545 100%);
+    background: -o-linear-gradient(bottom, #333333, #454545);
+    filter: progid:dximagetransform.microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#ffffff');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#454545',EndColorStr='#333333')";
+    border-bottom: 1px solid #0D0D0D;
+    border-left: medium none currentColor;
+    border-top: 1px solid #4D4D4D;
+    color: #DDDDDD;
+    position: relative;
+    cursor: pointer;
+ }
+ .head-pr > span {
+     display: inline-block;
+ }
+ .sport-name {
+     padding: 10px 0;
+     width: 20%;
+     text-align: center;
+ }
+ .chemp-name {
+     padding: 10px 20px;
+     width: 65%
+ }
+ .prognosis-level {
+     position: absolute;
+     width: 50px;
+     height: 15px;
+     right: -15px;
+     top: 50%;
+     margin-top: -7px;
+ }
+ .premium {
+     background: #A99700;
+ }
+ .free {
+     background: #237E17;
+ }
+ .standart {
+     background: #0A489F;
+ }
+ .body-pr {
+     border: 1px solid #0D0D0D;
+     background: #E2E2E2;
+ }
+ .footer-pr {
+     font-size: 12px;
+    padding: 3px 0;
+    background: #333333;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333), color-stop(1, #454545));
+    background: -ms-linear-gradient(bottom, #333333, #454545);
+    background: -moz-linear-gradient(center bottom, #333333 0%, #454545 100%);
+    background: -o-linear-gradient(bottom, #333333, #454545);
+    filter: progid:dximagetransform.microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#ffffff');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#454545',EndColorStr='#333333')";
+    border-bottom: 1px solid #0D0D0D;
+    border-left: medium none currentColor;
+    border-top: 1px solid #4D4D4D;
+    color: #DDDDDD;
+ }
+ .body-top {
+     padding: 20px;
+ }
+ 
+ /* end prognoz*/
+ 
+ /* autorization */
+ .autoriz {
+    background: #333333;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333), color-stop(1, #454545));
+    background: -ms-linear-gradient(bottom, #333333, #454545);
+    background: -moz-linear-gradient(center bottom, #333333 0%, #454545 100%);
+    background: -o-linear-gradient(bottom, #333333, #454545);
+    filter: progid:dximagetransform.microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#ffffff');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#454545',EndColorStr='#333333')";
+    border-bottom: 1px solid #0D0D0D;
+    border-left: medium none currentColor;
+    border-top: 1px solid #4D4D4D;
+    color: #DDDDDD;
+    display: block;
+    text-align: center;
+    padding: 3px 0;
+    margin-bottom: 10px;
+ }
+ .panel-sidebar > div {
+    width: 180px;
+    padding: 10px;
+    background: #C8C8C8;
+}
+.panel-sidebar input {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.panel-sidebar input.error {
+    border: 1px solid red;
+}
+.wrap-registr {
+    margin-top: 20px;
+}
+ /* end autorization */

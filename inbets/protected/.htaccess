@@ -1,0 +1,2 @@
+deny from all
+php_flag output_buffering on
